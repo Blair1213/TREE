@@ -17,18 +17,21 @@ If you only focus on homogeneous networks, the link is http://bioinformatics.tia
 
 # Reproducibility
 To reproduce the results of TREE. Firstly, you are supposed to download the networks and put it into a file "dataset/networks/". Then, you are supposed to download the subgraphs generated for each node from http://bioinformatics.tianshanzw.cn:8888/TREE/pdata.zip and unzip in the current directory. In addition, the distance of shortest path for each network can also be downloaded from http://bioinformatics.tianshanzw.cn:8888/TREE/sp.zip. The directory structure of TREE is:
-> TREE
->>callbacks
->>dataset
->>>networks
->>losses
->>models
->>layers
->>pdata
->>sp
->>run.py
->>main.py
->>config.py
+.
+├── README.md
+├── callbacks
+├── config.py
+├── ‘dataset’
+│   └── ‘networks’
+├── layers
+├── log
+├── losses
+├── main.py
+├── models
+├── ‘pdata’
+├── run.py
+├── ‘sp’
+└── utils
 
     python run.py
 
