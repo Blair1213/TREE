@@ -12,6 +12,7 @@ TREE has the following dependencies:
 * pandas 1.1.5
 * scikit-learn 0.24.2
 * tensorflow 2.6.2
+* shap 0.41.0
 
 
 # Datasets
