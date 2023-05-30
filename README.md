@@ -14,4 +14,8 @@ All networks can be downloaded from http://bioinformatics.tianshanzw.cn:8888/TRE
 If you only focus on homogeneous networks, the link is http://bioinformatics.tianshanzw.cn:8888/TREE/Networks/homogeneous.zip, and http://bioinformatics.tianshanzw.cn:8888/TREE/Networks/heterogeneous.zip for heterogeneous networks.
 
 # Reproducibility
-To reproduce the results of TREE. You first are supposed to download the networks and put it into a file "dataset/network". 
+To reproduce the results of TREE. Firstly, you are supposed to download the networks and put it into a file "dataset/networks/". Then, you are supposed to download the subgraphs generated for each node from http://bioinformatics.tianshanzw.cn:8888/TREE/pdata.zip and unzip in the current directory. In addition, the distance of shortest path for each network can also be downloaded from http://bioinformatics.tianshanzw.cn:8888/TREE/sp.zip. After that, just train TREE!!
+
+python run.py
+
+
