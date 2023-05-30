@@ -21,16 +21,16 @@ To reproduce the results of TREE. Firstly, you are supposed to download the netw
 ├── README.md
 ├── callbacks
 ├── config.py
-├── ‘dataset’
-│   └── ‘networks’
+├── dataset
+│   └── networks
 ├── layers
 ├── log
 ├── losses
 ├── main.py
 ├── models
-├── ‘pdata’
+├── pdata
 ├── run.py
-├── ‘sp’
+├── sp
 └── utils
 
     python run.py
