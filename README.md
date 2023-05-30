@@ -42,7 +42,6 @@ To reproduce the results of TREE. Firstly, you are supposed to download the netw
 │   ├── graphormerEncoder.py
 │   ├── multiHeadAttention.py
 │   └── spatialEncoding.py
-├── log
 ├── losses
 │   ├── __init__.py
 │   └── weightedBinaryCrossEntropy.py
@@ -59,7 +58,6 @@ To reproduce the results of TREE. Firstly, you are supposed to download the netw
 ├── sp
 │   ├── CPDB_sp.h5
 │   ├── ......
-├── tree.text
 └── utils
     ├── __init__.py
     ├── data_loader.py
