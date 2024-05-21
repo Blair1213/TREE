@@ -18,7 +18,7 @@ TREE has the following dependencies:
 # Datasets
 TREE is trained and tested on eight networks, including six homogeneous networks and two heterogeneous networks. The homogeneous networks are composed of gene and gene-gene interactions, while the heterogeneous networks are composed by (gene, miRNA, transcription factor) and (gene, lncRNA, transcription factor).
 
-All networks can be downloaded from http://bioinformatics.tianshanzw.cn:8888/TREE/Networks/network.zip.
+All networks can be downloaded from http://bioinformatics.tianshanzw.cn:8888/TREE/Networks/networks.zip.
 
 If you only focus on homogeneous networks, the link is http://bioinformatics.tianshanzw.cn:8888/TREE/Networks/homogeneous.zip, and http://bioinformatics.tianshanzw.cn:8888/TREE/Networks/heterogeneous.zip for heterogeneous networks.
 
