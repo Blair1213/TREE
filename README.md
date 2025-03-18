@@ -23,7 +23,12 @@ All pan-cancer networks can be downloaded from [here](https://zenodo.org/records
 In addition, TREE is also trained and tested on cancer-specific networks, including 16 homogeneous networks and 15 heterogeneous networks. All cancer-specific homogemeous networks are available at https://zenodo.org/records/11648365, and cancer-specific heterogeneous networks are available at https://zenodo.org/records/11648733.
 
 # Reproducibility
-To reproduce the results of TREE. Firstly, you are supposed to download the networks and put it into a file "dataset/networks/". Then, you are supposed to download the subgraphs generated for each node from [pdata for pan-cancer networks](https://zenodo.org/records/15045885) and unzip in the current directory. In addition, the distance of shortest path for each network can also be downloaded from [shortest path for pan-cancer networks](https://zenodo.org/records/15045711). The directory structure of TREE is:
+To reproduce the results of TREE. Firstly, you are supposed to download the networks and put it into a file "dataset/networks/". Then, you are supposed to download the subgraphs generated for each node from [pdata for pan-cancer networks](https://zenodo.org/records/15045885) and unzip to "pdata/.". In addition, the distance of shortest path for each network can also be downloaded from [shortest path (sp) for pan-cancer networks](https://zenodo.org/records/15045711) and unzip to "sp/.". 
+
+Please note even if you don't download above two files, the code can still be run. The above two files will be generated during running.
+
+
+The directory structure of TREE is:
 ```
 .
 ├── README.md
