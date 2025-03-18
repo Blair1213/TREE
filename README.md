@@ -25,7 +25,7 @@ In addition, TREE is also trained and tested on cancer-specific networks, includ
 # Reproducibility
 To reproduce the results of TREE. Firstly, you are supposed to download the networks and put it into a file "dataset/networks/". Then, you are supposed to download the subgraphs generated for each node from [pdata for pan-cancer networks](https://zenodo.org/records/15045885) and unzip to "pdata/.". In addition, the distance of shortest path for each network can also be downloaded from [shortest path (sp) for pan-cancer networks](https://zenodo.org/records/15045711) and unzip to "sp/.". 
 
-Please note even if you don't download above two files, the code can still be run. The above two files will be generated during running.
+Please note even if you don't download above two files, the code will still run successfully, as these files will be generated during execution.
 
 
 The directory structure of TREE is:
@@ -76,4 +76,14 @@ Then, you can train TREE by:
 ```
     python run.py
 ```
-
+## Citation
+```
+@article{su2025interpretable,
+  title={Interpretable identification of cancer genes across biological networks via transformer-powered graph representation learning},
+  author={Su, Xiaorui and Hu, Pengwei and Li, Dongxu and Zhao, Bowei and Niu, Zhaomeng and Herget, Thomas and Yu, Philip S and Hu, Lun},
+  journal={Nature Biomedical Engineering},
+  pages={1--19},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+```
