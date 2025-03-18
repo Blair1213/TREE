@@ -18,9 +18,9 @@ TREE has the following dependencies:
 # Datasets
 TREE is trained and tested on eight networks, including six homogeneous networks and two heterogeneous networks. The homogeneous networks are composed of gene and gene-gene interactions, while the heterogeneous networks are composed by (gene, miRNA, transcription factor) and (gene, lncRNA, transcription factor).
 
-All networks can be downloaded from [here](https://zenodo.org/records/11648891).
+All pan-cancer networks can be downloaded from [here](https://zenodo.org/records/11648891).
 
-If you only focus on homogeneous networks, the link is http://bioinformatics.tianshanzw.cn:8888/TREE/Networks/homogeneous.zip, and http://bioinformatics.tianshanzw.cn:8888/TREE/Networks/heterogeneous.zip for heterogeneous networks.
+In addition, TREE is also trained and tested on cancer-specific networks, including 16 homogeneous networks and 15 heterogeneous networks. All cancer-specific homogemeous networks are available at https://zenodo.org/records/11648365, and cancer-specific heterogeneous networks are available at https://zenodo.org/records/11648733.
 
 # Reproducibility
 To reproduce the results of TREE. Firstly, you are supposed to download the networks and put it into a file "dataset/networks/". Then, you are supposed to download the subgraphs generated for each node from http://bioinformatics.tianshanzw.cn:8888/TREE/pdata.zip and unzip in the current directory. In addition, the distance of shortest path for each network can also be downloaded from http://bioinformatics.tianshanzw.cn:8888/TREE/sp.zip. The directory structure of TREE is:
