@@ -1,4 +1,4 @@
-# 	TREE
+# [NBME] 	TREE: Interpretable identification of cancer genes across biological networks via transformer-powered graph representation learning
 This project is a Transformer-based graph representation learning framework for pan-cancer gene identifications. It applies to both homogeneous networks (PPI network)and heterogeneous networks. TREE can provide generalizable robust and accurate cancer gene identifications with multi-omics-level and network structure-level interpretability. 
 
 # Installation & Dependencies
